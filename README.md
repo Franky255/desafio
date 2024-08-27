@@ -1,4 +1,4 @@
-# Portfolio ¡Hola, bienvenido a mi proyecto encriptador de texto
+# Desafio ¡Hola, bienvenido a mi proyecto encriptador de texto
 
 ## Herramientas utilizadas:
 
