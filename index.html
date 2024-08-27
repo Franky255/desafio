@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Enriptador de texto</title>
+</head>
+
+<body>
+    <header class="header">
+        <img class="header__logo" src="./assets/Logo.png" alt="alura logo"> 
+    </header>
+    <div class="ecriptador">
+        <section class="encriptador__contenido">
+            <h1> </h1>
+               <p> <input type="text" id="textoIntroducido" class="encriptador__contenido__introducir" placeholder="Ingrese texto aqui.." ></p>
+                 <div class="chute ecriptador__botones">  
+                    <button onclick="encriptarTexto();" id="container__boton" class="container__boton">Encriptar</button>
+                    <button onclick="desencriptarTexto();" id="container__boton1" class="container__boton1" id="decrypt" >Desencriptar</button>
+                 </div>
+                
+        </section>
+    </div>
+        <div><br></div>
+        
+            <div class="encriptador__resultado">
+                <input type="text" id="textoResultado" class="encriptador__resultado__input">
+                
+            </div>
+        
+        
+    <footer class="footer">
+        <p>Desarrollado por Francisco GF</p>
+    </footer>
+
+    <script src="decript.js"></script> 
+
+</body>
+</html>

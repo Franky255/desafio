@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root{
+    --color-primario:#D8DFE8;
+    --color-secundario:#0A3871;
+    --color-terciario:#FFFFFF;
+
+    --fuente-inter:'Inter', sans-serif;
+    }
+
+
+body{
+    background-color: var(--color-primario);
+    color: var(--color-secundario);
+}
+.header{
+    padding: 2% 0% 0% 3%;
+}
+.header__logo{
+    width: 10%;
+    gap: 3%
+}
+.encriptador {
+     display: flex;
+     justify-content: right;
+ }
+.encriptador__contenido{
+    box-sizing:content-box;
+    margin: 1%;
+}
+.encriptador__contenido__introducir{
+    width: 20%;
+    padding: 15%;
+    visibility: visible;
+    font-family: var(--fuente-inter);
+    font-size: 1.5rem;
+    text-decoration: none;
+    background-color: var(--color-primario);
+    border: none;
+    display: flex;
+    gap: 10px;
+}
+.encriptador__botones {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+} 
+.container__boton {
+    border-radius: 1rem;
+    background: var(--color-secundario);
+    font-family: var(--fuente-inter);
+    color: var(--color-primario);
+    padding: 1rem 0;
+    width: 15%;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border: none;
+    margin-top: 1rem;
+}
+.container__boton1 {
+    border-radius: 1rem;
+    background: var(--color-primario);
+    font-family: var(--fuente-inter);
+    color: var(--color-secundario);
+    padding: 1rem 0;
+    width: 15%;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border: 1px solid;
+    margin-top: 1rem;
+}
+.encriptador__resultado{
+    align-items: center;
+    box-sizing:border-box;
+    margin: 1%;
+}
+
+.encriptador__resultado__input{
+    border-radius: 1rem;
+    font-family: var(--fuente-inter);
+    display: flex;
+    flex-direction: column;
+    background-image: url("../assets/Muñeco.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    position: relative;
+    padding: 20% 10%;
+    
+}
+.encriptador__resultado__input::after{
+    background-image: none;
+}
+
+.footer{
+    background-color: var(--color-terciario);
+    padding: 0.5rem;
+    color: var(--color-primario);
+    text-align: center;
+    font-family: var(--fuente-inter);
+    font-size: 1rem;
+    font-weight: 400px;
+
+}
